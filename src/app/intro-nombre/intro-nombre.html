@@ -1,0 +1,15 @@
+<div>
+
+    <form (ngSubmit)="nombre.set(tempNombre)">
+
+    <p>{{ saludo() }}{{ nombre() }}</p>
+    
+    <p ></p>
+    
+    <input type="text" [(ngModel)]="tempNombre" name="nombre" placeholder="Introduce tu nombre">
+    <button type="submit" (click)="borrarSaludo()">Enviar</button>
+    </form>
+
+
+
+</div>

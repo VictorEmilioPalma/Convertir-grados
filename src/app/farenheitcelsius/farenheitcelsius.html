@@ -1,0 +1,22 @@
+<div>
+  <p>Convertir temperaturas</p>
+
+  <p>Introduce el valor:</p>
+  <input type="number" name="valor" (change)="onValorChange($event)"><br>
+  
+  <label>
+    <input type="radio" [name]="componentId" value="fac" (change)="onTipoChange($event)">
+    farenheit a celsius
+  </label>    
+  <br>
+
+  <label>
+    <input type="radio" [name]="componentId" value="caf" (change)="onTipoChange($event)">
+    celsius a farenheit
+  </label>
+  <br>    
+
+  <button type="button" (click)="calcular()">Calcular</button>
+
+  <p><strong>Resultado: {{resultado}}</strong></p>
+</div>

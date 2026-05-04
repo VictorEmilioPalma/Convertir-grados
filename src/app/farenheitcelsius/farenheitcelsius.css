@@ -1,0 +1,30 @@
+p {
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    background-color: rgb(226, 226, 226);
+    border-radius: 25px;
+    margin: 50px; 
+    text-align: center;
+}
+
+div:hover{
+    font-size: 110%;
+    transition: 500ms;
+}
+
+button{
+    margin: 15px;
+    font-size: 150%;
+    border-radius: 25px;
+    border: 0cap;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(107, 255, 255);
+    transition: 1500ms;
+}

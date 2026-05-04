@@ -1,0 +1,15 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+        background-color: rgb(120, 120, 250);
+        margin: -2%;
+        padding: 25px;
+}
+
+div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
